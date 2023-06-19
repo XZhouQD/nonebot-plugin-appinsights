@@ -1,6 +1,7 @@
 import nonebot
 from nonebot.log import logger
 from opencensus.ext.azure.log_exporter import AzureLogHandler
+from .config import Config
 
 from .config import Config
 
@@ -19,5 +20,8 @@ __plugin_meta__ = nonebot.plugin.PluginMetadata(
     name='Nonebot2 AppInsights',
     description='Nonebot2 Application Insights 日志连接插件',
     usage='在.env内配置applicationinsights_connection_string以使用',
-    extra={'version': '0.1.0'}
+    type='application',
+    homepage='https://github.com/xzhouqd/nonebot-plugin-appinsights',
+    config=Config,
+    extra={'version': '0.2.0'}
 )

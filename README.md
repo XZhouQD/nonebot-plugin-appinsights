@@ -16,7 +16,7 @@
 <br />
 <img src="https://img.shields.io/badge/tested_python-3.10.6-blue?style=for-the-badge" alt="python">
 <img src="https://img.shields.io/badge/tested_env-go_cqhttp_1.0.0-blue?style=for-the-badge" alt="python">
-<img src="https://img.shields.io/badge/tested_Nonebot-2.0.0_rc4-red?style=for-the-badge" alt="nonebot">
+<img src="https://img.shields.io/badge/tested_Nonebot-2.0.0-red?style=for-the-badge" alt="nonebot">
 </div>
 
 ## 配置 Application Insights Connection String
